@@ -7,6 +7,7 @@
 body {
   width: 100vw;
   height: 100vh;
+  background: rgba(212, 175, 229, 0.5);
   display: flex;
   justify-content: center; /* Meio da tela */
   align-items: center; /* Meio da página */
@@ -24,4 +25,11 @@ body {
   width: 100%;
   border-radius: 15px 15px 0px 0px;
   height: 150px;
+}
+
+.sideNavBar {
+  background: #ffffff;
+  width: 250px;
+  border-radius: 0px 0px 0px 15px;
+  height: 450px;
 }
