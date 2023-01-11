@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* Meio da tela */
+  align-items: center; /* Meio da página */
+}
+
+.bodyDiv {
+  background: #eeeaea;
+  width: 1000px;
+  height: 600px;
+  border-radius: 15px;
+}
+
+.navBar {
+  background: #b78ee1;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  height: 150px;
+}
